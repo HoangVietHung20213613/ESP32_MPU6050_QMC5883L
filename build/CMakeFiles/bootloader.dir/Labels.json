@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

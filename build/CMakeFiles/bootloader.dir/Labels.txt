@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/CMakeFiles/bootloader-complete.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

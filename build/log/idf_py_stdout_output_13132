@@ -1,0 +1,346 @@
+et32mI (40) boot.es�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 26 2024 19:46:51[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ae80h ( 44672) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001aea8 vaddr=3ffb0000 size=02394h (  9108) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d244 vaddr=40080000 size=02dd4h ( 11732) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=172fch ( 94972) map[0m
+[0;32mI (167) esp_image: segment 4: paddr=00037324 vaddr=40082dd4 size=0b220h ( 45600) load[0m
+[0;32mI (192) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (204) cpu_start: Multicore app[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (213) app_init: Application information:[0m
+[0;32mI (215) app_init: Project name:     ESP32_MPU6050_QMC5883L_KALMAN[0m
+[0;32mI (222) app_init: App version:      d5dd860-dirty[0m
+[0;32mI (228) app_init: Compile time:     Dec 26 2024 19:46:07[0m
+[0;32mI (234) app_init: ELF file SHA256:  bbfe8df39...[0m
+[0;32mI (239) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (244) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (249) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (254) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (259) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (266) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB2C78 len 0002D388 (180 KiB): DRAM[0m
+[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008E000 len 00012000 (72 KiB): IRAM[0m
+[0;32mI (299) spi_flash: detected chip: generic[0m
+[0;32mI (302) spi_flash: flash io: dio[0m
+[0;33mW (306) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (319) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (330) main_task: Started on CPU0[0m
+[0;32mI (340) main_task: Calling app_main()[0m
+ Azimuth = 0.000000
+[0;32mI (340) MPU6050_task: devid=0x34[0m
+[0;32mI (340) MPU6050_task: getRate()=0[0m
+[0;32mI (340) MPU6050_task: getExternalFrameSync()=0[0m
+[0;32mI (350) MPU6050_task: getDLPFMode()=6[0m
+[0;32mI (350) MPU6050_task: getFullScaleAccelRange()=0[0m
+[0;32mI (360) MPU6050_task: getFullScaleGyroRange()=0[0m
+ Elevation = 0.083861
+ Azimuth = 0.460719
+ Elevation = 0.148702
+ Azimuth = 1.221669
+ Elevation = 0.191787
+ Azimuth = 2.312795
+ Elevation = 0.207677
+ Azimuth = 3.802534
+ Elevation = 0.193275
+ Azimuth = 5.721086
+ Elevation = 0.144674
+ Azimuth = 8.177632
+ Elevation = 0.053179
+ Azimuth = 11.174149
+ Elevation = -0.081160
+ Azimuth = 14.763803
+ Elevation = -0.270456
+ Azimuth = 18.852137
+ Elevation = -0.510659
+[0;32mI (1340) main_task: Returned from app_main()[0m
+ Azimuth = 23.580404
+ Elevation = -0.796387
+ Azimuth = 28.742046
+ Elevation = -1.130309
+ Azimuth = 34.168629
+ Elevation = -1.502902
+ Azimuth = 39.902164
+ Elevation = -1.903615
+ Azimuth = 45.666645
+ Elevation = -2.323353
+ Azimuth = 51.354649
+ Elevation = -2.752169
+ Azimuth = 56.936508
+ Elevation = -3.174930
+ Azimuth = 62.360252
+ Elevation = -3.586772
+ Azimuth = 67.380577
+ Elevation = -3.977455
+ Azimuth = 71.908852
+ Elevation = -4.345901
+ Azimuth = 76.138428
+ Elevation = -4.673804
+ Azimuth = 79.745621
+ Elevation = -4.973097
+ Azimuth = 82.928101
+ Elevation = -5.243322
+ Azimuth = 85.511452
+ Elevation = -5.488493
+ Azimuth = 87.914230
+ Elevation = -5.699732
+ Azimuth = 89.797119
+ Elevation = -5.885160
+ Azimuth = 91.208763
+ Elevation = -6.043063
+ Azimuth = 92.385208
+ Elevation = -6.171074
+ Azimuth = 93.326286
+ Elevation = -6.276818
+ Azimuth = 93.960716
+ Elevation = -6.368185
+ Azimuth = 94.576294
+ Elevation = -6.445471
+ Azimuth = 94.858688
+ Elevation = -6.497139
+ Azimuth = 95.087082
+ Elevation = -6.515520
+ Azimuth = 95.077026
+ Elevation = -6.535480
+ Azimuth = 95.044800
+ Elevation = -6.547494
+ Azimuth = 94.803802
+ Elevation = -6.547207
+ Azimuth = 94.501663
+ Elevation = -6.539790
+ Azimuth = 94.080597
+ Elevation = -6.527095
+ Azimuth = 93.560280
+ Elevation = -6.504547
+ Azimuth = 93.146202
+ Elevation = -6.483949
+ Azimuth = 92.579407
+ Elevation = -6.450347
+ Azimuth = 91.975952
+ Elevation = -6.414870
+ Azimuth = 91.464020
+ Elevation = -6.372816
+ Azimuth = 90.814980
+ Elevation = -6.334465
+ Azimuth = 90.155037
+ Elevation = -6.295363
+ Azimuth = 89.573792
+ Elevation = -6.262012
+ Azimuth = 88.988846
+ Elevation = -6.221023
+ Azimuth = 88.435730
+ Elevation = -6.182588
+ Azimuth = 87.848099
+ Elevation = -6.135118
+ Azimuth = 87.317749
+ Elevation = -6.088625
+ Azimuth = 86.842888
+ Elevation = -6.047567
+ Azimuth = 86.278442
+ Elevation = -6.004460
+ Azimuth = 85.836441
+ Elevation = -5.970450
+ Azimuth = 85.458984
+ Elevation = -5.948781
+ Azimuth = 85.079811
+ Elevation = -5.911875
+ Azimuth = 84.674522
+ Elevation = -5.884215
+ Azimuth = 84.409111
+ Elevation = -5.861740
+ Azimuth = 84.001007
+ Elevation = -5.835639
+ Azimuth = 83.653015
+ Elevation = -5.818905
+ Azimuth = 83.262901
+ Elevation = -5.799515
+ Azimuth = 82.825562
+ Elevation = -5.776712
+ Azimuth = 82.589264
+ Elevation = -5.759243
+ Azimuth = 82.460121
+ Elevation = -5.739390
+ Azimuth = 82.348816
+ Elevation = -5.725678
+ Azimuth = 82.028336
+ Elevation = -5.703392
+ Azimuth = 81.829704
+ Elevation = -5.697322
+ Azimuth = 81.715218
+ Elevation = -5.679777
+ Azimuth = 81.662193
+ Elevation = -5.666412
+ Azimuth = 81.607193
+ Elevation = -5.658551
+ Azimuth = 81.535515
+ Elevation = -5.652857
+ Azimuth = 81.494408
+ Elevation = -5.645522
+ Azimuth = 81.434204
+ Elevation = -5.635486
+ Azimuth = 81.425529
+ Elevation = -5.633303
+ Azimuth = 81.351379
+ Elevation = -5.634306
+ Azimuth = 81.310303
+ Elevation = -5.631459
+ Azimuth = 81.292351
+ Elevation = -5.628836
+ Azimuth = 81.278038
+ Elevation = -5.620956
+ Azimuth = 81.159721
+ Elevation = -5.619178
+ Azimuth = 81.032478
+ Elevation = -5.622342
+ Azimuth = 81.041794
+ Elevation = -5.619186
+ Azimuth = 81.136879
+ Elevation = -5.616275
+ Azimuth = 81.084541
+ Elevation = -5.616602
+ Azimuth = 81.056992
+ Elevation = -5.612694
+ Azimuth = 81.088654
+ Elevation = -5.612829
+ Azimuth = 81.053558
+ Elevation = -5.614532
+ Azimuth = 80.910515
+ Elevation = -5.603555
+ Azimuth = 81.003944
+ Elevation = -5.596463
+ Azimuth = 80.968338
+ Elevation = -5.602462
+ Azimuth = 80.949081
+ Elevation = -5.607462
+ Azimuth = 81.074287
+ Elevation = -5.610098
+ Azimuth = 81.184158
+ Elevation = -5.610414
+ Azimuth = 81.286919
+ Elevation = -5.609049
+ Azimuth = 81.134277
+ Elevation = -5.621259
+ Azimuth = 81.177605
+ Elevation = -5.629897
+ Azimuth = 81.028122
+ Elevation = -5.629851
+ Azimuth = 80.991837
+ Elevation = -5.631695
+ Azimuth = 80.981773
+ Elevation = -5.642171
+ Azimuth = 80.958603
+ Elevation = -5.639279
+ Azimuth = 81.074966
+ Elevation = -5.631338
+ Azimuth = 81.090881
+ Elevation = -5.626257
+ Azimuth = 80.953003
+ Elevation = -5.631012
+ Azimuth = 81.139389
+ Elevation = -5.635966
+ Azimuth = 81.055092
+ Elevation = -5.636365
+ Azimuth = 81.032486
+ Elevation = -5.637455
+ Azimuth = 81.145386
+ Elevation = -5.638437
+ Azimuth = 81.151581
+ Elevation = -5.631025
+ Azimuth = 81.231308
+ Elevation = -5.634934
+ Azimuth = 81.338104
+ Elevation = -5.638474
+ Azimuth = 81.226387
+ Elevation = -5.637335
+ Azimuth = 81.265289
+ Elevation = -5.639317
+ Azimuth = 81.203621
+ Elevation = -5.637723
+ Azimuth = 81.137672
+ Elevation = -5.633738
+ Azimuth = 81.231354
+ Elevation = -5.631216
+ Azimuth = 81.210823
+ Elevation = -5.624920
+ Azimuth = 81.380592
+ Elevation = -5.626173
+ Azimuth = 81.486984
+ Elevation = -5.631443
+ Azimuth = 81.455406
+ Elevation = -5.630044
+ Azimuth = 81.383270
+ Elevation = -5.630555
+ Azimuth = 81.431091
+ Elevation = -5.629244
+ Azimuth = 81.424866
+ Elevation = -5.630261
+ Azimuth = 81.496376
+ Elevation = -5.627992
+ Azimuth = 81.559196
+ Elevation = -5.631071
+ Azimuth = 81.564644
+ Elevation = -5.629559
+ Azimuth = 81.539482
+ Elevation = -5.637439
+ Azimuth = 81.511551
+ Elevation = -5.633028
+ Azimuth = 81.532753
+ Elevation = -5.631017
+ Azimuth = 81.597786
+ Elevation = -5.629076
+ Azimuth = 81.332230
+ Elevation = -5.627067
+ Azimuth = 81.298523
+ Elevation = -5.622109
+ Azimuth = 81.150436
+ Elevation = -5.618101
+ Azimuth = 81.247452
+ Elevation = -5.623243
+ Azimuth = 81.145119
+ Elevation = -5.629905
+ Azimuth = 81.207924
+ Elevation = -5.628551
+ Azimuth = 81.258293
+ Elevation = -5.636631
+ Azimuth = 81.297470
+ Elevation = -5.638159
+ Azimuth = 81.122871
+ Elevation = -5.639749
+ Azimuth = 81.051407
+ Elevation = -5.641964
+ Azimuth = 81.115967
+ Elevation = -5.635771
+ Azimuth = 81.051788
+ Elevation = -5.636022
+ Azimuth = 80.984070
+ Elevation = -5.641100
+ Azimuth = 80.885887
+ Elevation = -5.642300

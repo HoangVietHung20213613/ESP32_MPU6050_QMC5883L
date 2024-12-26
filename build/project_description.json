@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32_MPU6050_QMC5883L",
-    "project_version":    "9d95b5c-dirty",
+    "project_version":    "8ec4d85-dirty",
     "project_path":       "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build",

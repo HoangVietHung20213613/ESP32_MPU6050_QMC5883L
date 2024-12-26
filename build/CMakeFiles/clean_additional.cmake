@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   file(REMOVE_RECURSE
-  "ESP32_MPU6050_QMC5883L_KALMAN.bin"
-  "ESP32_MPU6050_QMC5883L_KALMAN.map"
+  "ESP32_MPU6050_QMC5883L.bin"
+  "ESP32_MPU6050_QMC5883L.map"
   "bootloader\\bootloader.bin"
   "bootloader\\bootloader.elf"
   "bootloader\\bootloader.map"

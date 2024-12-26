@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ESP32_MPU6050_QMC5883L_KALMAN")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ESP32_MPU6050_QMC5883L")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -544,6 +544,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/esp-idf/code/cmake_install.cmake")
+  include("C:/da2/esp-idf-mpu6050-dmp-main/esp-idf-mpu6050-dmp-main/ESP32_MPU6050_QMC5883L/build/esp-idf/main/cmake_install.cmake")
 endif()
 

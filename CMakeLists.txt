@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(ESP32_MPU6050_QMC5883L_KALMAN)
+project(ESP32_MPU6050_QMC5883L)
